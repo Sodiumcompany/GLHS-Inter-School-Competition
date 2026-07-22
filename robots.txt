@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://glhscompetition.com/sitemap.xml
