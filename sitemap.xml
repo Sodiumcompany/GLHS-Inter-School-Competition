@@ -1,59 +1,67 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
   <url>
-    <loc>https://glhscompetition.com/</loc>
-    <lastmod>2026-07-23</lastmod>
+    <loc>https://glhs.vercel.app/</loc>
+    <lastmod>2026-07-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
+
   <url>
-    <loc>https://glhscompetition.com/video-editing.html</loc>
+    <loc>https://glhs.vercel.app/video-editing.html</loc>
+    <lastmod>2026-07-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
+
   <url>
-    <loc>https://glhscompetition.com/graphics-design.html</loc>
+    <loc>https://glhs.vercel.app/graphics-design.html</loc>
+    <lastmod>2026-07-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
+
   <url>
-    <loc>https://glhscompetition.com/ai-web-dev.html</loc>
+    <loc>https://glhs.vercel.app/ai-web-dev.html</loc>
+    <lastmod>2026-07-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
+
   <url>
-    <loc>https://glhscompetition.com/ict-quiz.html</loc>
+    <loc>https://glhs.vercel.app/ict-quiz.html</loc>
+    <lastmod>2026-07-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
+
   <url>
-    <loc>https://glhscompetition.com/speed-typing.html</loc>
+    <loc>https://glhs.vercel.app/speed-typing.html</loc>
+    <lastmod>2026-07-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
+
   <url>
-    <loc>https://glhscompetition.com/storytelling.html</loc>
+    <loc>https://glhs.vercel.app/storytelling.html</loc>
+    <lastmod>2026-07-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
+
   <url>
-    <loc>https://glhscompetition.com/presentation.html</loc>
+    <loc>https://glhs.vercel.app/presentation.html</loc>
+    <lastmod>2026-07-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
+
   <url>
-    <loc>https://glhscompetition.com/ctf.html</loc>
+    <loc>https://glhs.vercel.app/ctf.html</loc>
+    <lastmod>2026-07-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-  <url>
-    <loc>https://glhscompetition.com/login.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://glhscompetition.com/admin.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
+
 </urlset>
