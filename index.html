@@ -30,11 +30,9 @@
     <meta name="apple-mobile-web-app-title" content="GLHS Comp" />
     <meta name="msapplication-TileColor" content="#1a0b2e" />
 
-    <!-- Favicons -->
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <link rel="alternate icon" href="/favicon.ico" />
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
-    <link rel="manifest" href="/manifest.webmanifest" />
+    <!-- Favicons – now using GLHS.png directly from the repo -->
+    <link rel="icon" type="image/png" href="GLHS.png" />
+    <link rel="apple-touch-icon" href="GLHS.png" />
 
     <!-- Preconnect & DNS Prefetch -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -247,6 +245,21 @@
             background-clip: text;
             text-decoration: none;
             flex-shrink: 0;
+        }
+
+        /* Logo image inside nav brand */
+        .nav-brand img {
+            height: 35px;
+            width: auto;
+            border-radius: 8px;
+            -webkit-text-fill-color: initial;
+            background: rgba(255, 255, 255, 0.05);
+            padding: 2px;
+            box-shadow: 0 0 20px rgba(139, 92, 246, 0.15);
+            transition: transform 0.3s ease;
+        }
+        .nav-brand img:hover {
+            transform: scale(1.05);
         }
 
         .nav-brand i {
@@ -487,7 +500,7 @@
         }
 
         /* ================================================================
-           SOCIAL / COMMUNITY SECTION  —  CENTERED WITH FLEX
+           SOCIAL / COMMUNITY SECTION
         ================================================================ */
         .community-section {
             margin-top: 60px;
@@ -631,7 +644,7 @@
         }
 
         /* ================================================================
-           TEAM SECTION  (new)
+           TEAM SECTION
         ================================================================ */
         .team-section {
             margin-top: 50px;
@@ -767,10 +780,18 @@
             max-width: 1280px;
             margin: 0 auto;
             display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 16px;
+        }
+
+        .footer-row {
+            display: flex;
             justify-content: space-between;
             align-items: center;
             flex-wrap: wrap;
             gap: 16px;
+            width: 100%;
         }
 
         .footer-info p {
@@ -809,6 +830,14 @@
 
         .footer-links a:hover {
             color: #8B5CF6;
+        }
+
+        /* WOT Badge wrapper */
+        .wot-wrapper {
+            margin-top: 8px;
+            display: flex;
+            justify-content: center;
+            width: 100%;
         }
 
         /* ===== TOAST ===== */
@@ -877,6 +906,9 @@
             }
             .nav-brand span {
                 font-size: 0.9rem;
+            }
+            .nav-brand img {
+                height: 28px;
             }
             .nav-links a {
                 font-size: 0.75rem;
@@ -988,7 +1020,7 @@
             .team-card h4 {
                 font-size: 0.95rem;
             }
-            .footer-container {
+            .footer-row {
                 flex-direction: column;
                 text-align: center;
             }
@@ -1096,8 +1128,8 @@
             .nav-brand {
                 font-size: 0.9rem;
             }
-            .nav-brand i {
-                font-size: 1.1rem;
+            .nav-brand img {
+                height: 24px;
             }
             .nav-links a {
                 font-size: 0.9rem;
@@ -1200,7 +1232,7 @@
                 "@type": "Organization",
                 "name": "Sodium IT",
                 "url": "https://glhs.vercel.app",
-                "logo": "https://glhs.vercel.app/images/logo.png",
+                "logo": "https://glhs.vercel.app/GLHS.png",
                 "contactPoint": {
                     "@type": "ContactPoint",
                     "contactType": "support",
@@ -1261,7 +1293,8 @@
     <header role="banner">
         <nav class="navbar" id="navbar" aria-label="Main navigation">
             <a href="/" class="nav-brand" aria-label="GLHS Competition Hub home">
-                <i class="fas fa-trophy" aria-hidden="true"></i>
+                <!-- GLHS.png logo placed here -->
+                <img src="GLHS.png" alt="GLHS Logo" />
                 <span>Powered by Sodium IT</span>
             </a>
             <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">
@@ -1302,7 +1335,7 @@
             </div>
 
             <!-- ============================================================
-               COMMUNITY / SOCIAL SECTION  —  CARDS CENTERED
+               COMMUNITY / SOCIAL SECTION
             ============================================================ -->
             <section class="community-section" aria-labelledby="community-heading">
                 <h3 id="community-heading" class="section-heading">
@@ -1349,7 +1382,7 @@
             </section>
 
             <!-- ============================================================
-               TEAM SECTION  (new)
+               TEAM SECTION
             ============================================================ -->
             <section class="team-section" aria-labelledby="team-heading">
                 <h3 id="team-heading" class="section-heading">
@@ -1402,20 +1435,33 @@
     <!-- ===== FOOTER ===== -->
     <footer role="contentinfo" aria-label="Site footer">
         <div class="footer-container">
-            <div class="footer-info">
-                <p>&copy; 2026 <strong>Government Laboratory High School, Mymensingh</strong> &bull; <strong>Sodium IT</strong></p>
-                <p>
-                    Developed by <a href="https://facebook.com/MrGlitchSpider" target="_blank" rel="noopener">MrGlitchSpider</a> &amp;
-                    <a href="https://facebook.com/ahnaf.shahriar.781044" target="_blank" rel="noopener">Ahnaf Shahriar Saif</a>
-                </p>
-                <p>
-                    Join our <a href="https://discord.gg/sft7aMYXds" target="_blank" rel="noopener">Discord community</a>
-                </p>
+            <div class="footer-row">
+                <div class="footer-info">
+                    <p>&copy; 2026 <strong>Government Laboratory High School, Mymensingh</strong> &bull; <strong>Sodium IT</strong></p>
+                    <p>
+                        Developed by <a href="https://facebook.com/MrGlitchSpider" target="_blank" rel="noopener">MrGlitchSpider</a> &amp;
+                        <a href="https://facebook.com/ahnaf.shahriar.781044" target="_blank" rel="noopener">Ahnaf Shahriar Saif</a>
+                    </p>
+                    <p>
+                        Join our <a href="https://discord.gg/sft7aMYXds" target="_blank" rel="noopener">Discord community</a>
+                    </p>
+                </div>
+                <div class="footer-links">
+                    <a href="/privacy">Privacy Policy</a>
+                    <a href="/terms">Terms of Service</a>
+                    <a href="/sitemap.xml">Sitemap</a>
+                </div>
             </div>
-            <div class="footer-links">
-                <a href="/privacy">Privacy Policy</a>
-                <a href="/terms">Terms of Service</a>
-                <a href="/sitemap.xml">Sitemap</a>
+
+            <!-- WOT (Web of Trust) Badge -->
+            <div class="wot-wrapper">
+                <a id='wot-badge0' class='wot-badge' href='https://www.mywot.com/scorecard/glhs.vercel.app?wot_badge=0_white' target='_blank' >
+                    <div class='wot-logo'></div>
+                    <div class='wot-shield'></div>
+                    <p class='wot-secured'>Verified Website</p>
+                    <div class='wot-vertical'></div>
+                    <p class='wot-report'>See Report</p>
+                </a>
             </div>
         </div>
     </footer>
@@ -1437,6 +1483,9 @@
     </script>
     <script defer src="/js/firebase-config.js">
     </script>
+
+    <!-- WOT script (async, non-blocking) -->
+    <script async src='https://static.mywot.com/website_owners_badges/websiteOwnersBadge.js'></script>
 
     <script defer>
         // ================================================================
