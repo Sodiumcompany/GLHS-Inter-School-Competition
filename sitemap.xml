@@ -2,63 +2,70 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
   <url>
-    <loc>https://glhs.vercel.app/</loc>
+    <loc>https://glhsictclub.vercel.app/</loc>
     <lastmod>2026-07-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
 
   <url>
-    <loc>https://glhs.vercel.app/video-editing.html</loc>
+    <loc>https://glhsictclub.vercel.app/video-editing.html</loc>
     <lastmod>2026-07-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
-    <loc>https://glhs.vercel.app/graphics-design.html</loc>
+    <loc>https://glhsictclub.vercel.app/graphics-design.html</loc>
     <lastmod>2026-07-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
-    <loc>https://glhs.vercel.app/ai-web-dev.html</loc>
+    <loc>https://glhsictclub.vercel.app/ai-web-dev.html</loc>
     <lastmod>2026-07-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
-    <loc>https://glhs.vercel.app/ict-quiz.html</loc>
+    <loc>https://glhsictclub.vercel.app/ict-quiz.html</loc>
     <lastmod>2026-07-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
-    <loc>https://glhs.vercel.app/speed-typing.html</loc>
+    <loc>https://glhsictclub.vercel.app/science-fair.html</loc>
     <lastmod>2026-07-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
-    <loc>https://glhs.vercel.app/storytelling.html</loc>
+    <loc>https://glhsictclub.vercel.app/ict-debate.html</loc>
     <lastmod>2026-07-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
-    <loc>https://glhs.vercel.app/presentation.html</loc>
+    <loc>https://glhsictclub.vercel.app/storytelling.html</loc>
     <lastmod>2026-07-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 
   <url>
-    <loc>https://glhs.vercel.app/ctf.html</loc>
+    <loc>https://glhsictclub.vercel.app/presentation.html</loc>
+    <lastmod>2026-07-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://glhsictclub.vercel.app/ctf.html</loc>
     <lastmod>2026-07-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
